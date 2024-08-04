@@ -1,6 +1,8 @@
 # N8N_Install_Script
 Bash script para instalação do Docker Compose e do N8N no Ubuntu.
 
+PRE-REQUISITO: PARA UTILIZAR ESSES SCRIPTS, VOCÊ JÁ DEVE TER UMA ENTRADA DE DNS APONTANDO SUBDOMINIO.DOMINIO.COM.BR PARA O ENDEREÇO DO SEU SERVIDOR DO N8N.
+
 **Intruções para utilização desses scripts
 **
 
