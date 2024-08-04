@@ -20,7 +20,7 @@ cd n8n/
 
 nano installDocker.sh
 
-ctrl + U (cola o conteúdo)
+clique com botão direito do mouse na tela do terminal com o arquivo em edição (cola o conteúdo)
 
 ctrl + O (para salvar)
 
@@ -38,7 +38,7 @@ chmod a+x installDocker.sh
 
 nano configN8n.sh
 
-ctrl + U (cola o conteúdo)
+clique com botão direito do mouse na tela do terminal com o arquivo em edição (cola o conteúdo)
 
 ctrl + O (para salvar)
 
