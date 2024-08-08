@@ -40,6 +40,21 @@ nano configN8n.sh
 
 clique com botão direito do mouse na tela do terminal com o arquivo em edição (cola o conteúdo)
 
+ATENÇÃO, IMPORTANTE! CASO VOCÊ JÁ TENHA ALGUM SERVIÇO UTILIZANDO AS PORTAS 80 E 443 (ALGUM WEBSERVER OU PROXY REVERSO), SERÁ NECESSÁRIO CONFIGURAR O PORT BIND NO ARQUIVO docker-compose.yaml. Você pode utilizar, por exemplo:
+
+ports:
+
+  - "81:81"
+  
+  - "444:444"
+
+TENDO TAMBÉM O CUIDADO DE ALTERAR OS COMANDOS NO SERVIÇO DO TRAEFIK:
+
+  -  "--entrypoints.web.address=:81"
+
+  -  "--entrypoints.websecure.address=:444"
+
+
 ctrl + O (para salvar)
 
 ctrl + X (para sair)
